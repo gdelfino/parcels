@@ -57,6 +57,9 @@ GEM
       thor (>= 0.14.6)
     guard-rails (0.4.5)
       guard (>= 0.2.2)
+    guard-zeus (0.0.1)
+      guard
+      zeus
     haml (4.0.3)
       tilt
     haml-rails (0.4)
@@ -149,6 +152,8 @@ GEM
     uglifier (2.1.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    zeus (0.13.3)
+      method_source (>= 0.6.7)
 
 PLATFORMS
   ruby
@@ -157,6 +162,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   factory_girl_rails
   guard-rails
+  guard-zeus
   haml-rails
   jquery-rails
   rails (= 3.2.13)
