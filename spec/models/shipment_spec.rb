@@ -14,6 +14,10 @@ describe Shipment do
 
   end
   it 'kg should be an integer larger or equal than 8kg'
+
+  it 'factory should be valid' do
+    FactoryGirl.build(:shipment).should be_valid
+  end
   it 'unit3kg should be a positive integer'
   it 'unit5kg should be a positive integer'
   it 'kg should be equal to 3 * unit3kg + 5 * unit5kg'
