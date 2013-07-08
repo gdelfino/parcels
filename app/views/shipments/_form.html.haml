@@ -7,7 +7,7 @@
           %li= msg
 
   .field
-    = f.label :kg
+    = f.label 'Please enter shipment weight (kg)'
     = f.number_field :kg
   -# .field
   -#   = f.label :units3kg
@@ -16,4 +16,4 @@
   -#   = f.label :units5kg
   -#   = f.number_field :units5kg
   .actions
-    = f.submit 'Save'
+    = f.submit 'Save', :class => 'button radius'

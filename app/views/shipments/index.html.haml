@@ -1,22 +1,23 @@
 %h1 Listing shipments
 
 %table
-  %tr
-    %th Kg
-    %th Units3kg
-    %th Units5kg
-    %th
-    %th
-    %th
-
-  - @shipments.each do |shipment|
+  %thead
     %tr
-      %td= shipment.kg
-      %td= shipment.units3kg
-      %td= shipment.units5kg
-      %td= link_to 'Show', shipment
-      %td= link_to 'Edit', edit_shipment_path(shipment)
-      %td= link_to 'Destroy', shipment, :method => :delete, :data => { :confirm => 'Are you sure?' }
+      %th Kg
+      %th Units3kg
+      %th Units5kg
+      %th
+      %th
+      %th
+  %tbody
+    - @shipments.each do |shipment|
+      %tr
+        %td= shipment.kg
+        %td= shipment.units3kg
+        %td= shipment.units5kg
+        %td= link_to 'Show', shipment
+        %td= link_to 'Edit', edit_shipment_path(shipment)
+        %td= link_to 'Destroy', shipment, :method => :delete, :data => { :confirm => 'Are you sure?' }
 
 %br
 
