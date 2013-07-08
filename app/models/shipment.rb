@@ -4,8 +4,9 @@ class Shipment < ActiveRecord::Base
   validates :units3kg, :units5kg, numericality: {only_integer: true}
 
   def kg= val
-    self.units3kg = 1
-    self.units5kg = 1
+    # This algorithm was deduced with the help of Wolfram Mathematica
+    self.units3kg = (2 * val - 10) % 5
+    self.units5kg = ([-3,-9,0,-6,-12].rotate(val-8)[0] + val)/5
     super val
   end
 
