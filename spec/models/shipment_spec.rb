@@ -76,6 +76,12 @@ describe Shipment do
     s.errors[:units5kg].should_not be_empty
   end
 
-  it 'setting kg should automatically set the optimum unit3kg and unit5kg'
+  8.upto(100) do |kilograms|
+    it 'kg should be equal to 3 * units3kg + 5 * units5kg' do
+      s = Shipment.new(kg: kilograms)
+      s.kg.should == 3 * s.units3kg + 5 * s.units5kg
+    end
+  end
+
   it 'a non optimal combination of kg, unit3kg and unit5kg should be invalid'
 end
