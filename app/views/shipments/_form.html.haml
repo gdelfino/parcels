@@ -1,13 +1,13 @@
-= form_for @shipment do |f|
+= form_for @shipment, remote: true do |f|
   - if @shipment.errors.any?
     #error_explanation
       %h2= "#{pluralize(@shipment.errors.count, "error")} prohibited this shipment from being saved:"
       %ul
         - @shipment.errors.full_messages.each do |msg|
           %li= msg
-
+  %ul#aqui
   .field
     = f.label 'Please enter shipment weight (kg)'
-    = f.number_field :kg
+    = f.number_field :kg, autocomplete: 'off'
   .actions
-    = f.submit 'Save', :class => 'button radius'
+    = f.submit 'Save', class: 'button radius'

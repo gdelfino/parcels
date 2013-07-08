@@ -6,11 +6,15 @@ class ShipmentsController < ApplicationController
 
   def create
     @shipment = Shipment.new params[:shipment]
-    if @shipment.save
-      redirect_to shipments_url, notice: 'Shipment was successfully created.'
-    else
-      @shipments = Shipment.all
-      render action: 'index'
+    respond_to do |format|
+      if @shipment.save
+        format.html { redirect_to shipments_url, notice: 'Shipment was successfully created.' }
+        format.js
+      else
+        @shipments = Shipment.all
+        format.html { render action: 'index' }
+        format.js
+      end
     end
   end
 
