@@ -10,21 +10,11 @@ describe ShipmentsController do
       get :index
       assigns(:shipments).should eq([shipment])
     end
-  end
-
-  describe 'GET show' do
-    it 'assigns the requested shipment as @shipment' do
-      shipment = FactoryGirl.create :shipment
-      get :show, id: shipment.to_param
-      assigns(:shipment).should eq(shipment)
-    end
-  end
-
-  describe 'GET new' do
     it 'assigns a new shipment as @shipment' do
-      get :new
+      get :index
       assigns(:shipment).should be_a_new(Shipment)
     end
+
   end
 
   describe 'POST create' do
@@ -43,7 +33,7 @@ describe ShipmentsController do
 
       it 'redirects to the created shipment' do
         post :create, shipment: valid_attributes
-        response.should redirect_to(Shipment.last)
+        response.should redirect_to(shipments_url)
       end
     end
 
@@ -55,11 +45,11 @@ describe ShipmentsController do
         assigns(:shipment).should be_a_new(Shipment)
       end
 
-      it "re-renders the 'new' template" do
+      it "re-renders the 'index' template" do
         # Trigger the behavior that occurs when invalid params are submitted
         Shipment.any_instance.stub(:save).and_return(false)
         post :create, shipment: { 'kg' => 'invalid value' }
-        response.should render_template('new')
+        response.should render_template('index')
       end
     end
   end
