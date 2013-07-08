@@ -23,6 +23,15 @@ describe Shipment do
     FactoryGirl.build(:shipment, kg:10, units3kg:1.5, units5kg:1.1).should_not be_valid
   end
 
+  it "automatically sets a value for units3kg and units5kg when you assign a value to kg" do
+    s = Shipment.new
+    s.units3kg.should be_nil
+    s.units5kg.should be_nil
+    s.kg = 8
+    s.units3kg.should_not be_nil
+    s.units5kg.should_not be_nil
+  end
+
   it 'unit3kg should be a positive integer'
   it 'unit5kg should be a positive integer'
   it 'kg should be equal to 3 * unit3kg + 5 * unit5kg'
