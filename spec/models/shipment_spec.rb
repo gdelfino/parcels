@@ -60,6 +60,7 @@ describe Shipment do
          s.kg = kg
          s.units3kg.should == u3
          s.units5kg.should == u5
+         s.should be_valid
        end
      end
   end
