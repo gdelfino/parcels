@@ -13,7 +13,19 @@ describe Shipment do
     end
 
   end
-  it 'kg should be an integer larger or equal than 8kg'
+
+  it 'kg should be an integer larger or equal than 8kg' do
+    s = Shipment.new
+    s.kg = 7
+    s.should_not be_valid
+
+    s.kg = 8.5
+    s.should_not be_valid
+    s.errors[:kg].should_not be_empty
+
+    s.kg = 8
+    s.should be_valid
+  end
 
   it 'factory should be valid' do
     FactoryGirl.build(:shipment).should be_valid

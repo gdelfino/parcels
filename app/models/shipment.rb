@@ -2,6 +2,7 @@ class Shipment < ActiveRecord::Base
   attr_accessible :kg, :units3kg, :units5kg
   validates :kg, :units3kg, :units5kg, presence: true
   validates :units3kg, :units5kg, numericality: {only_integer: true}
+  validates :kg, numericality: {greater_than_or_equal_to: 8, only_integer: true}
 
   def kg= val
     # This algorithm was deduced with the help of Wolfram Mathematica
