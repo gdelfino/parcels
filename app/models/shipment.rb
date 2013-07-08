@@ -10,8 +10,8 @@ class Shipment < ActiveRecord::Base
 
   def kg= mass_in_kg
     # This algorithm was deduced with the help of Wolfram Mathematica
-    self.units3kg = calc_units3kg(mass_in_kg)
-    self.units5kg = calc_units5kg(mass_in_kg)
+    self.units3kg = calc_units3kg mass_in_kg
+    self.units5kg = calc_units5kg mass_in_kg
     super mass_in_kg
   end
 
