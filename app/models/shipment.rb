@@ -1,6 +1,7 @@
 class Shipment < ActiveRecord::Base
   attr_accessible :kg, :units3kg, :units5kg
-  validate :kg_units3kg_and_units5kg_are_consistent
+  validate :kg_units3kg_and_units5kg_are_consistent,
+           :kg_units3kg_and_units5kg_are_optimal
   validates :kg, :units3kg, :units5kg, presence: true
   validates :units3kg, :units5kg, numericality: {greater_than_or_equal_to: 0, only_integer: true}
   validates :kg,                  numericality: {greater_than_or_equal_to: 8, only_integer: true}
@@ -16,6 +17,13 @@ class Shipment < ActiveRecord::Base
     return unless kg && units3kg && units5kg
     if kg != 3 * units3kg + 5 * units5kg
       errors.add(:base, "inconsistent kg, units3kg & units5kg")
+    end
+  end
+
+  def kg_units3kg_and_units5kg_are_optimal
+    return unless kg && units3kg && units5kg
+    if units3kg != (2 * kg - 10) % 5
+      errors.add(:base, "non-optimal units3kg & units5kg combination")
     end
   end
 
