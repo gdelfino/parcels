@@ -14,10 +14,20 @@
   %table
     %thead
       %tr
-        %th Kg
-        %th Units3kg
-        %th Units5kg
         %th
+          Shipment
+          %br
+          Weight
+          %br
+          kg
+        %th
+          3 kg
+          %br
+          Parcels
+        %th
+          5 kg
+          %br
+          Parcels
         %th
     %tbody
       - @shipments.each do |shipment|
@@ -25,10 +35,4 @@
           %td= shipment.kg
           %td= shipment.units3kg
           %td= shipment.units5kg
-          %td= link_to 'Show', shipment
-          %td= link_to 'Destroy', shipment, :method => :delete, :data => { :confirm => 'Are you sure?' }
-
-  %br
-
-
-
+          %td= link_to 'Destroy', shipment, :method => :delete
