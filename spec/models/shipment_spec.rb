@@ -85,4 +85,10 @@ describe Shipment do
   end
 
   it 'a non optimal combination of kg, unit3kg and unit5kg should be invalid'
+  it "should be invalid if kg != 3 * units3kg + 5 * units5kg" do
+    s = Shipment.new(kg: 8)
+    s.units3kg =  9
+    s.units5kg = 10
+    s.should_not be_valid
+  end
 end
