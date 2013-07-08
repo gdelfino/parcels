@@ -4,7 +4,8 @@
 
 2. Output should either be a simple result view or for bonus points, rendered on the same page via AJAX without page refresh. So given 11, output should be:
 
-3. 1 five kg parcels, 2 three kg parcels
+  * One 5 kg parcels
+  * Two 3 kg parcels
 
 4. Input should be validated.
 
