@@ -32,11 +32,11 @@ class Shipment < ActiveRecord::Base
   private
 
   def calc_units3kg(mass_in_kg)
-    (2 * mass_in_kg - 10) % 5
+    ((2 * mass_in_kg.to_f - 10) % 5).to_i
   end
 
   def calc_units5kg(mass_in_kg)
-    ([-3,-9,0,-6,-12].rotate(mass_in_kg - 8)[0] + mass_in_kg)/5
+    (([-3,-9,0,-6,-12].rotate(mass_in_kg.to_f - 8)[0] + mass_in_kg.to_f)/5).to_i
   end
 
 end

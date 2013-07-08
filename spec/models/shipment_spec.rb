@@ -98,4 +98,9 @@ describe Shipment do
     s.should_not be_valid
     puts s.errors[:units5kg]
   end
+
+  it "should accept a string for kg" do
+    s = Shipment.new kg: "11"
+    s.should be_valid
+  end
 end
