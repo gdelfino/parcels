@@ -9,6 +9,7 @@ class ShipmentsController < ApplicationController
     if @shipment.save
       redirect_to shipments_url, notice: 'Shipment was successfully created.'
     else
+      @shipments = Shipment.all
       render action: 'index'
     end
   end
