@@ -27,14 +27,6 @@ describe ShipmentsController do
     end
   end
 
-  describe 'GET edit' do
-    it 'assigns the requested shipment as @shipment' do
-      shipment = FactoryGirl.create :shipment
-      get :edit, id: shipment.to_param
-      assigns(:shipment).should eq(shipment)
-    end
-  end
-
   describe 'POST create' do
     describe 'with valid params' do
       it 'creates a new Shipment' do
@@ -68,50 +60,6 @@ describe ShipmentsController do
         Shipment.any_instance.stub(:save).and_return(false)
         post :create, shipment: { 'kg' => 'invalid value' }
         response.should render_template('new')
-      end
-    end
-  end
-
-  describe 'PUT update' do
-    describe 'with valid params' do
-      it 'updates the requested shipment' do
-        shipment = Shipment.create! valid_attributes
-        # Assuming there are no other shipments in the database, this
-        # specifies that the Shipment created on the previous line
-        # receives the :update_attributes message with whatever params are
-        # submitted in the request.
-        Shipment.any_instance.should_receive(:update_attributes).with({ 'kg' => '8' })
-        put :update, id: shipment.to_param, shipment: { 'kg' => '8' }
-      end
-
-      it 'assigns the requested shipment as @shipment' do
-        shipment = Shipment.create! valid_attributes
-        put :update, id: shipment.to_param, shipment: valid_attributes
-        assigns(:shipment).should eq(shipment)
-      end
-
-      it 'redirects to the shipment' do
-        shipment = Shipment.create! valid_attributes
-        put :update, id: shipment.to_param, shipment: valid_attributes
-        response.should redirect_to(shipment)
-      end
-    end
-
-    describe 'with invalid params' do
-      it 'assigns the shipment as @shipment' do
-        shipment = Shipment.create! valid_attributes
-        # Trigger the behavior that occurs when invalid params are submitted
-        Shipment.any_instance.stub(:save).and_return(false)
-        put :update, id: shipment.to_param, shipment: { 'kg' => 'invalid value' }
-        assigns(:shipment).should eq(shipment)
-      end
-
-      it "re-renders the 'edit' template" do
-        shipment = Shipment.create! valid_attributes
-        # Trigger the behavior that occurs when invalid params are submitted
-        Shipment.any_instance.stub(:save).and_return(false)
-        put :update, id: shipment.to_param, shipment: { 'kg' => 'invalid value' }
-        response.should render_template('edit')
       end
     end
   end
