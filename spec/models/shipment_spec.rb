@@ -64,8 +64,18 @@ describe Shipment do
      end
   end
 
-  it 'unit3kg should be a positive integer'
-  it 'unit5kg should be a positive integer'
+  it 'units3kg should be a positive integer' do
+    s = FactoryGirl.build :shipment, units3kg: -1
+    s.should_not be_valid
+    s.errors[:units3kg].should_not be_empty
+  end
+
+  it 'units5kg should be a positive integer' do
+    s = FactoryGirl.build :shipment, units5kg: -1
+    s.should_not be_valid
+    s.errors[:units5kg].should_not be_empty
+  end
+
   it 'setting kg should automatically set the optimum unit3kg and unit5kg'
   it 'a non optimal combination of kg, unit3kg and unit5kg should be invalid'
 end
