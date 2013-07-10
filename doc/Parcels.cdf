@@ -3,7 +3,7 @@
 (*** Wolfram CDF File ***)
 (* http://www.wolfram.com/cdf *)
 
-(* CreatedBy='Mathematica 10.0' *)
+(* CreatedBy='Mathematica 9.0' *)
 
 (*************************************************************************)
 (*                                                                       *)
@@ -22,11 +22,11 @@
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[      1064,         20]
-NotebookDataLength[    152758,       4562]
-NotebookOptionsPosition[    147438,       4352]
-NotebookOutlinePosition[    147860,       4371]
-CellTagsIndexPosition[    147817,       4368]
+NotebookDataPosition[      1063,         20]
+NotebookDataLength[    185889,       4579]
+NotebookOptionsPosition[    180074,       4357]
+NotebookOutlinePosition[    180562,       4379]
+CellTagsIndexPosition[    180519,       4376]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -39,26 +39,874 @@ Cell["Gustavo Delfino, 2013-07-08", "Text",
  TextAlignment->Right,
  TextJustification->0.],
 
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1:eJztveV7FNn6sLuPfDj/wPn0vtf52ezZMzjEXTtJd8fd3d3d3ROc4G4hggTi
+QBKCDcMYOjC4J4R4e59n1UqKorsqpJkwgdn1XDd9dSrVlSZZdz/PWlW11n8F
+xjmG/p//+Mc/kv4feHAMSDNJTAzIcPq/4QvTjOSQwP8LnhyBf0v+j3/8Az2X
+s8EGG2ywwQYbbLDBBhtssMEGG2ywwQYbbLDBBhtssMEGG2x87SET0yKUy8UE
+EtgFIEIqpd8ZIZfSIsMvV0Qql4pojzMtlgkkcqFULpKhH00il4soPwi9Hzg0
+OvpsSCUisUggFU7JRNNyyTTeTU78OMns/0WIX0gXi/CbZ4MNBV9kEplUDHzw
+XWIjNG9ASLRhQCCXT0nlE2L5uEg+JmS0WE4RBFq+RCKSSAViybREAs9hg9Lb
+kQneI50mAbMACfEaGcVKCXxOyCTEm5z9iRKBXDSFNn7I7AeIlO6nssHGIgRD
+bpKjNiwVzmSoGTdRQFbCiUks/yA3gZjIWSzCBzor/EDIV/BqkeTDl4ukcoFY
+Pi2SS4iYwxEZkcUgP06KZBNCxY+O98z+OIREKBcjJWXCyc/0a2SDjU8IJvsg
+p6BkRwS1ePsgN1HS0wcqyZAdUyIpgOtDQOH4YskMEukMeDcoGWmRy0Qflrjk
+cWQisVQgFE8KJVC1imffJ1k2ox9NxIdWzmwkY7F+/2z8Owduw9BEof3jliwU
+SQAJxTgxpdpU9ggDL4SXA1SVFNo0KjyhdyaZFomnUG4lgUJRMCGfHpdPjcmn
+38onhyRjr6aHn46/ejjy7N6bR7dfPbgpn3whn36NEAzLhe/kolG5ZBwQCadR
+8Unp3wmkqBgmK2SqiZJZ6RblV80GGwrBVDFCMsOjH0goyWxnUCKcgu4egWJu
+IlyYQTyGBAEEI/LhJ9I3j0Qv700+uTX64Oeh36++vHXxxc2B+71H7nYdvHF6
+z48tWy8eXn9uT3XX9rL2huL2Io/TBW6n8lxasxyOpdkcTuIeTLDcH8fZnuGz
+Ny+oqSq+e2velaNrb3fufTrY/PrqacHz26KXd2VvH8nHX6OfKJ0ikvJswSxD
+RSx8MkBahERMVKpssPHFhEIl+R4xasPQmJFNb+WCV/LJJ/KJh3LxkFz4Wj7x
+TD78h/D5rbEHPw3fvfrm9uU/Orb/frrhRuv6H49UD+4p7m3Ibl+f2lafdLoi
+8lRZ6PHioOZCvyM5ngczXfalOe5JsW1OdwSa0hyOpdo3ptgBR5Ntga50M5LO
+NFOSxhRuY6o1Is3uaIYDItMZOJbv01Tof7w8vGNdUt+uomtNG+507XvQ3yR/
+dUP++rb87QP5+HP0IYCsREqSYy9k4J7mYv8Z2Ph3DNHo6+m3L8ZePR56cu/Z
+vRsPbl7//Zert69f+u1i76/9p3/sOnbl+I6Bg7W92/K61iV21Ea3JRkBpxIN
+gZMJBifi9YHjcXpHE8wbEzlNyZYtqdwTGdansmxP59ifyXXozbYGerK4PVmW
+3ZkW3VmcrkzzrkzTzlQOpivNAuhOt8Q0Z9jR0pluDrRnWJxJ55xOt2xL555K
+swLOpJjAlvZM7uls25M5Dq3Zzo2ZjkcynLYn2O1Jdz9SGtm2Oa/vyMZrnY23
+Lnb+/uOFJ0+ePH/+/M2bN6OjowKBgK1C/5aBPkwhfQjH4CMXno+J0bA86nqg
+vpFYCoUcOoElRKexUHdKMDlbwgkIyD6LBGpDohdF1FHQp5JAFwsQzO4AZRXq
++0CnafoddJpkwknx1NjU6PC7Ny9ePX34+P6d+7d/u3vj5xdn1j89Vf+gper2
+4eKf9+Rc2Zo6sCH+/NqY7jx7TFeuHdCZY4s5k2ZJS1eONS3duXa0tOc4qMSp
+HGdaThR4YI7nu2Na89yA4zmutDTnOQFNuY7AsRwHksOZ/s35oWeq4vsacq4d
+rrpzesvj83tfXjwseftEPvYC9TqFo2LBuFAwBX8n1KXFv3Xco5TL4c80RjAz
+xER0cmWUDjDU8cDMX1kmlEkFGPgaZBdMT+KxIykq4SHtiha7nf49Aw0CIl8E
+cqloUih5Ny3FPlKHAiQz59LEIJBcSnSXSERjcsEoYuSO5PVvgic/jt+/NHKz
+7/X17qcX2x72H3/Ys+ePrl1327b81lT7476CgS0pPXVR7ZWhXalGtLSk8lvT
+rI+n25zKsj+d49ie59xZ4NpV6HauyBlzttAJ01vgCPTk0tOea09LR64jLWdy
+nVSivcCdFib7TmS70nI81wlozXHEtGQ7YM7kebfleZ3M8WjNdmvMcD6c7rg/
+zR4q4U1x9jszvJur4rq3F11t2nin98jL612jdy/JXt6XvX4gf/sYuTk1LJeM
+ymUTcvnEB8NPUugTS0QCUHZaKJWRp2MUBmDRZ6h0plsN3W3UJ2Xt+zwhINOf
+fGbEHl3I8foR0Yd6Ix97Inx1d/ThT69vDT79+dzDa913WutvNdfeOFr504GS
+qzvzLm7JHNiYdn5dcm9dSHdVYHuZb0eJT2epb2eJT3uB56kc17M53HO5vP58
+64EC6/58fl8e72y2ZW+WxZVcU+BqnhnwQ775tQLOj4UWwPk8G8y5XOuzOfze
+bB4ABWFnvj2mI88O055rCzDZ1J5HT0eeGy2n89xV4mS2Ey2n8t0xJ/PcMCdy
+XYGT2S4MzLzwRJYj5nimA3A6lQe0pfJOpXBPpnJbU62AllSrrmwuZHBI+qcy
+rZtTrA4lWh1M5B1K4h/J8mwp8O+siR7ckXOjue5x787hK8fGfj4hG3ooH4GO
+8GtU3kim5FL0MYt4r9qMgHismGIqbiDSmSsE2PgMMYn/DGKxSCTCv+/p4aed
+Bza0ZNoDzRk2LRk2x9MhH3GPE/QUuQDnilyBviK3gWJ34EKJx4Vi24EimwuF
+NmAZFg0YyOX1FdkDZwsICp3Olbr3V3hdqPLpLvfvKvMDT8HW9mLv04WebQUe
+wGCxIy1nS9wwvcWuAH4biFIfWs4UujPgScvpAg9a2vLdaenId6HldL4zpi3P
+CXMq1xGAPE5LR5Zje6YD5kyGPUlXlg0ixxaq4p48+958h7MFjvAL7E4z7kk3
+QUM9RO+yPd3qTIbVmUx+e5Y1AEqeTLduTeMdS+UdTeEeSeYdyPA+kh94vDrh
+3Pbin1q3QTUy/Gvf+L0f5O8eyEcfo1Gp6TfotIh0Wo5PQs5eIycUSaCzAAGZ
+krXvMwX04IQyuVAoFAjFxICadOzpnY2ZITv9lu0JXHkoRK0pSutUgn53qun5
+bE5/ruWJFIuTqZZnMngdWdY9OXZ9eY4DBc6DRa6DRXaXShyulDldLnW8WOIA
+XC5zulrhcrna52Kl10CZO3jXU+wGdJd69pR59ZW4Ujlf7ILpLnDrKXQHeos8
+zhZ7nivxOl/q3Vfmc67M82ypB6a3xB0DR+ut8KOlvciDAS96CjxpYcp9XfnO
+tJBJ9kyuA+Z0jj0a2MmmpzNrho5MO0x7hi1wpsAFgMIbqlyQFOpwRIZdZz6k
+b4czOXZt2XansmyPZ9nBx2NzunVnNh+Ri9JiV64D7IbfT2cmrz2T3wZKpto2
+pTk0ZrgezfZszPU5Xhp8uiamf3vOz83rHvcdefdbr/Txdfnrm5KhB/KxV2jc
+lbyaiM19ny3EM7/hmSuj0Am18ec7C6M3hJoDG8M4m8PMGsJMge3hJgD8oYGm
+NH5zCq85iduUaNWSYNUcb3k6jX86Az5+baFtdBc690KSKvc4W+HZl299ocgO
+TLxW5fZzrcev9V7AL3WeoCRmsMKTykB9RH9deF9t2LnqkN7KoJ6KwK4y/85S
+P2zujL9FrkBXoQuixI0W6v4fvLbQk54CN1o681xoYbIJ/vsYsqcJpgCdOfa0
+dGU7KAsINGU7tWQ5tWY7n8x1BdnP5Ht05nt2FXgdy3LCJzIaMx1bcl1xv7I5
+x+V0rg3Qlm1LYDdjKxwzUb8z2bgr3Ryq9+5sa0imHdl27VlolAnebVu2Q2uW
+U1OG45E0x0NpTgdTHU9vyOjYWfHsxiXB+Aguh8bHx6enJha3lf5dg6gt0LgW
+ug5KKp+ampKLRg5UJNWEcutCefVh3PVhvA0R3M2R3IYoHrA51GBLmOH2cONd
+kaZ7YzgHYi0PxXOPxvPgo7UxgXso3rIp3ba9xLOnOqCzyq+t1LOvJmigNnCw
+PvhyXcCVGt9LlR6DZc4DJY6d1eEdVWHtlaFnKkLayoJOlQaeLAk4UezfUejR
+WeTZVezVXeINBWRvmS9wttzvfNV7zlX6AmcrfIDz5Z60kJWqAr1F9KC6jg6o
++mg5W+hCCx6SpY7KdmTbANDsacEOghEY+PjCnMx1PDlbsp7JRgVqJ8GJbHtI
+dvDpB90BsAxya1uWzYl03vFs3sks3qksJCDxOeDYnuME4JL1fJFzH5QWRc74
+f4R+bhY4DknWpi2dD/3K48mWLYmc5gRz6ELuS3d9NHgcnXycvfWDjc8VUGOg
+K+3F8ItG/W6hWC4ZP1iVuiVQvyFYf1uwwY5Qg92hhvvCDQ9EGh6KNNwZwwF2
+RyP2RHH2Rs5wLNF6XzRnf5zlmSKv3/ZlvmivfdFZ/+BURdeuis7txW0bs4/X
+JjaXhTcV+h/L9zmW63llbfDl+iDMpbpAksvV/peq/ICLlb6DFT4Xyr2BgTKv
+3nJvEihcAahgURFb5EBLX7ETLdACaekvcKDlXK4tLVDd0dKda4Mhz3HgmhDy
+Di1kElQQ8HQ2D+jI4aOzJNnW57JtzufY9mfbni+0O5uDTkqez+UOFtleKbG9
+VGR9IZ97rtylt9QJ/uNoPCrLFjmVzD2RZHU01e5Iks2hRB58MB5OsGpMtGxJ
+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
+9fm9jTt+7Wt/cuOHN3/cnBp9I5kelcsExLzTyDAQC3oQMopNqJKUyqdE0kmh
+hLQPKSmdURIQoF8s+i5Ihy9MAnMXu1F/NUHO8Pkn7fvoicIFOW+onPUUfCTt
+npycFghEExNTU5OiaYFEIJSJZfJJAfRS5GMiyavhoQcPf7/165ULPSf2b6ks
+SQ9XSb1Iy6VfiH3kqoK1HlqV7lqlbjpVgRYNab6tG3Kvnth5t//46NN7k6+f
+iseGIaNhqURQJYpn3BESCAimCbB3UEyitSBlkpkhlJlqc3ZtViLliWREtUkU
+/MQ+IqLgRPsQPrLx8YBPPFokEhEtH+0YKrrKFCrap+CdqqmW2t+cLY0QY6Mj
+jx89uHnj15YjjRurKpNDfANsjYK4a2Kslyfwv42z+o9ozreJ/GVxvOVhpv8M
+Mv4mwnJZnM0aIMUabQw1/z6KuyLXywgtLeGpXu22vMBVvdRLuybAsDbQCArR
+ci802x6Q52Oa72ta4Gua72WIhuvddYp9DOFVJR76UBOWeeqVQ5fNS7fKUweB
+1uVcXuW1vNJreY3vmpoA9eoAzTLvNUXuK6q9NUvc1LKd1DJcdQuC+OsyQg7U
+57XurO/v779+/fqTJ0+mpqbIPy5Uj1KGWMQmxwYZn9s+EUN8gn206qmac/El
+NPBCPEQDW/BpDvG04OWDhwMdbbvrSgqivWJdDUN4y4M530XbrA7jLAky+RZE
+Q30969WgW7jFUi/t/x1o/M8Qy5XxjroFAVYVwZbV/gZrA/TKfNGMT0WeaKmy
+Mm9dvNLZulAzMBGt9emHFnwH8IrwpZ5ayDUfPXwhJeqgeemUuGkWOqPZMwq9
+DAs8DXI9DHM9jQt9zctCrKsi7PeUxJzYlH/t1O6Xv/aJX/0unxqWi0blwjGQ
+Dj7SFLSi9ilY+77AWCz7VO0PKqunqnfUq1ix5thBnATh2HKxhKigBGMvH1zq
+bl1fmhrnZx9so+drqeFnsSaEpxHBVws2XwoyotMNdppRNhqB5stCrValuxuV
++JuV+higgtAfzfQL9hV765R5Q17TzndRy7Jfscln1VqvlfWeK+q91ev9tGp9
+tcs8NAqcVpa6Qy7TKHRRz3fRKHDXLfQxLQ20qgy1rkmJ2lqY3rylpv/Y/pt9
+Xa9vXpe8eiKfHEE9NYQIV4OQx/G1SbN/TRl8KYBPFCLgCWvflxxM9kmlYloW
+174/rx40V5z1cOIjTcS/DTTzk1CIRvbEwpG3Q08e/9G4c2NJWrSvrYmT8Wof
+C/Vgrrqv6TI3nf/y1v2PAKNvgk3+CfUn5Ck8tW+5pyZUhvAIZsEjWkop0Kg2
+yASdDXRdVua0tMhhGRiHlo3wNSoO4BQFWGS46ef7ciqjnbcXRJ/cXnm1/cij
+6+eH7/80+eaV6N2IXDAFHTD08SCT48fRKdHYtHhCIJ4SSUVi1EGb6akpnTnC
+v2bWvi85VLVPomIwa8mYmOaG3JO8Mlwl8CIUcBzyqnIhnutpSiCAr4hTV9Ni
+2bRILsQnsCDLCMYe3vrp2K5NGRHevnx9b0vNQL5OpOXSRJtV0PvLtF1a6Lyq
+zG01dO7q/XUr3FfVQHbzR9dogY/QDcx2WJlmuyLJXh1EKwy2rk303lYYe2RD
+Udu+jb3Ne0C00Se3RcNP5YJR4rS1VDazBJ5YIhVMw/udRiu5CWQSITE6CW8P
+3qSUGN9HH4bwG5sanx5/pywUKl9Y+77sYLKPuSJdTPv+pHoAUzKVyKRCtPIx
+mmltbHwSr10IpSjsQ5y7hzQjEo+9+eXS2Zr8NAdzPUfN/3RW/19ua/7fCOP/
+LPbQgtxX6KaRbrey3M+owF07xXYl6AkFao6P+eaMgMPVqX2njvzQe/L3Hy+8
+uP/b6Oun4qkxPJYoEU+DRDLyWhG5fEIqf4dOsIngM0AgnpiWTInkEjE6Dyef
+xqOO8NkIuVuIZpAjzoCL0DWWlMuTqL9/1r4vOVS1j+mvyRTMWtLboZJ6ZA05
+f4ghdAlZdpJMCYjptyfHifFzdJ0+Si2TkyjDEItrE9XpzEgpfPfXwZ6jW2vi
+vaycdb6B3l+qp3lxhHNtSsCWosSjG4sHTux/+FP/+PP70olhuXBcLpp4/1pI
+XETvDPplk5No6QPCOxn8rwDIa3iLRDhBrAQ7MzyLzwIIJFJqXxX/BeGXrKAe
+VS7Wvi85vjT7Ptpx+zPqkZeiUV0AGdHYhXRKJieKO5lQPj0hmxiTC9BswFCU
+QvrDTR3aPxSo0OHCF3jAexh6cu/uD+dvD7b/frX3+Z2fpqGAJMdDCHPAnzGJ
+/I1g5poQoQhVgxIJPo8Gpa0Q/VblIqlMKJMK5IgpuQT6ehNyiRTfriMXysRT
+EkjOsyfTUMBxxqdFY1PCCaF0SoreN5nm8Dgn7vexoy5fachUjs993nCavKqN
+PMXPdHCAqd+q6qcHU6j++/myYrHbFxtzhep/z8995kKgYN8c6rH2fTQWu32x
+MVeo/vf8i+ybj3qsfR+NxW5fbMwVqv89P/d5Q5qCk1mxOWDtQ7HY7YuNuUL1
+v+fnPm/4gXqf5B1r3/tY7PbFxlyh+t/zc583pE95qlrP2odjsdsXG3OF6n/P
+z33mQlG9jx2ftW+uWOz2xcZcofrf8y+1bx7HZ+2bKxa7fbHBBhtssMEGG2yw
+wQYbbLDBBhtssMEGG2ywwQYbbLDBBhtssMEGG2ywwQYbbLDBBhtssMEGG2yw
+wQYbbLDBBhtssMEGG2ywwQYbixP/P+ZV4YA=
+    "], {{0, 169}, {298, 0}}, {0, 255},
+    ColorFunction->RGBColor],
+   BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+   Selectable->False],
+  BaseStyle->"ImageGraphics",
+  ImageSize->Automatic,
+  ImageSizeRaw->{298, 169},
+  PlotRange->{{0, 298}, {0, 169}}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframAlpha", "[", 
+  RowBox[{"\"\<parcel\>\"", ",", 
+   RowBox[{"IncludePods", "\[Rule]", "\"\<Definition:WordData\>\""}], ",", 
+   RowBox[{"AppearanceElements", "\[Rule]", 
+    RowBox[{"{", "\"\<Pods\>\"", "}"}]}], ",", 
+   RowBox[{"TimeConstraint", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"30", ",", "Automatic", ",", "Automatic", ",", "Automatic"}], 
+     "}"}]}]}], "]"}]], "Input"],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = "parcel", Typeset`opts$$ = {
+   AppearanceElements -> {"Pods"}, IncludePods -> "Definition:WordData", 
+    TimeConstraint -> {30, Automatic, Automatic, Automatic}}, 
+   Typeset`elements$$ = {"Pods"}, Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Definitions", "scanner" -> "Data", "id" -> 
+     "Definition:WordData", "position" -> "100", "error" -> "false", 
+     "numsubpods" -> "1", "primary" -> "true"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             GridBox[{{
+                StyleBox[
+                 TagBox[
+                  GridBox[{{
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "1", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "\"noun\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    "\"a wrapped container\""}, {
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "2", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "\"noun\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    "\"the allotment of some amount by dividing \
+something\""}, {
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "3", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "\"noun\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    "\"an extended area of land\""}, {
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "4", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "\"noun\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    "\"a collection of things wrapped or boxed together\""}, {
+                    
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "5", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "\"verb\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    "\"divide into parts\""}, {
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "6", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "\"verb\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    "\"cover with strips of canvas\""}, {
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "7", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    TagBox[
+                    TagBox[
+                    PaneBox[
+                    StyleBox[
+                    "\"verb\"", LinebreakAdjustments -> {1, 100, 1, 0, 100}, 
+                    LineIndent -> 0, {
+                    FontFamily -> "Verdana", FontSize -> 10}, 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    BaseStyle -> {{
+                    BaselinePosition -> Baseline, FontColor -> 
+                    GrayLevel[0.3]}, LineSpacing -> {0.9, 0, 1.5}, 
+                    LinebreakAdjustments -> {1, 10, 10000, 0, 100}, 
+                    TextAlignment -> Left}, BaselinePosition -> Baseline], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    $CellContext`TagBoxWrapper["Label"]], 
+                    "\"make into a wrapped container\""}}, 
+                   GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{{Top}, {Bottom}}}}, 
+                   AutoDelete -> False, 
+                   GridBoxBackground -> {"Columns" -> {{None}}}, 
+                   GridBoxFrame -> {
+                    "Columns" -> None, "Rows" -> {{True}}, 
+                    "ItemsIndexed" -> {{{1, -1}, {1, -1}} -> None}}, 
+                   GridBoxItemSize -> {"Columns" -> {
+                    Scaled[0.045], Automatic, Automatic}}, 
+                   GridBoxSpacings -> {
+                    "Columns" -> {0, 0, 0.8, 0}, "Rows" -> {{1}}}, FrameStyle -> 
+                   GrayLevel[0.84], BaselinePosition -> Automatic, 
+                   AllowScriptLevelChange -> False], "Grid"], 
+                 LineSpacing -> {0.9, 0, 1.5}, LineIndent -> 0, StripOnInput -> 
+                 False]}, {
+                TagBox[
+                 StyleBox[
+                  RowBox[{"\"(\"", "\[NoBreak]", 
+                    FormBox[
+                    TagBox[
+                    FormBox[
+                    TemplateBox[{"\"\"", "7", "\" meanings\""}, "RowDefault"],
+                     TraditionalForm], Format[#, TraditionalForm]& ], 
+                    TraditionalForm], "\[NoBreak]", "\")\""}], {
+                  FontFamily -> "Verdana", FontSize -> 10, 
+                   GrayLevel[0.5], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0}, StripOnInput -> False], 
+                 $CellContext`TagBoxWrapper["Label"]]}}, 
+              GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+              AllowScriptLevelChange -> False, DefaultBaseStyle -> "Column", 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+             "Column"], TraditionalForm]], "Output"]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,computabledata,formatteddata,numberdata"}]}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Show examples", "input" -> 
+         "Definition:WordData__Show examples"}, {}]}]}], Typeset`aux1$$ = {
+   True, False, {False}, True}, Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {
+    XMLElement["sources", {"count" -> "1"}, {
+      XMLElement[
+      "source", {
+       "url" -> 
+        "http://www.wolframalpha.com/sources/WordDataSourceInformationNotes.\
+html", "text" -> "Word data"}, {}]}]}, Typeset`initdone$$ = True, 
+   Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "1", "datatypes" -> 
+    "Word", "timedout" -> "", "timedoutpods" -> "", "timing" -> "0.397", 
+    "parsetiming" -> "0.056", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSPa46011he4a4g0079aagf7000024ch51a63if68522", "host" -> 
+    "http://www4c.wolframalpha.com", "server" -> "2", "related" -> 
+    "http://www4c.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa46021he4a4g0079aagf7000044dhd0396563c1gc&s=2", "version" -> "2.6"}, 
+   Typeset`sessioninfo$$ = {
+   "TimeZone" -> -4.5, 
+    "Date" -> {2013, 7, 10, 10, 14, 7.164031`7.607732443699007}, "Line" -> 7, 
+    "SessionID" -> 24482900454596072939}, Typeset`showpods$$ = {1}, 
+   Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
+   Typeset`newq$$ = "parcel"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$}, {Typeset`aux1$$}, Typeset`chosen$$, 
+        Typeset`open$$, Typeset`elements$$, Typeset`q$$, Typeset`opts$$, 
+        Typeset`nonpods$$, Typeset`queryinfo$$, Typeset`sessioninfo$$, 
+        Typeset`showpods$$, Typeset`failedpods$$, Typeset`newq$$}]], 
+     StandardForm],
+    ImageSizeCache->{1269., {129., 134.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; 
+     WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{Typeset`pod1$$}], Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Output"]
+}, {2}]],
+
 Cell[CellGroupData[{
 
 Cell["The Excercise", "Section"],
 
+Cell["This would be the exercise:", "Text"],
+
+Cell[CellGroupData[{
+
 Cell["\<\
-This would be the exercise:
+Find the most efficient combination of 3kg and 5kg parcels required to make \
+any shipment of 8kg or more. The app will accept input from a web form.\
+\>", "ItemNumbered"],
 
-## Find the most efficient combination of 3kg and 5kg parcels required to \
-make any shipment of 8kg or more. The app will accept input from a web form.
+Cell["\<\
+Output should either be a simple result view or for bonus points, rendered on \
+the same page via AJAX without page refresh. So given 11, output should be:\
+\>", "ItemNumbered"],
 
-## Output should either be a simple result view or for bonus points, rendered \
-on the same page via AJAX without page refresh. So given 11, output should be:
+Cell[CellGroupData[{
 
-## 1 five kg parcels, 2 three kg parcels
+Cell["1 five kg parcels", "Subitem"],
 
-## Input should be validated.
+Cell["2 three kg parcels", "Subitem"]
+}, Open  ]],
 
-## Assume at least Ruby 1.9.3 and Rails 3+. Please use TDD and submit your \
+Cell["Input should be validated.", "ItemNumbered"],
+
+Cell["\<\
+Assume at least Ruby 1.9.3 and Rails 3+. Please use TDD and submit your \
 answer with either a private github repo or via email.\
-\>", "Text"]
+\>", "ItemNumbered"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -265,7 +1113,8 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{
       RowBox[{"v", "/", "5"}], ",", 
-      RowBox[{"iii", "/", "3"}]}], "}"}]}]}]}]], "Input"],
+      RowBox[{"iii", "/", "3"}]}], "}"}]}]}]}]], "Input",
+ InitializationCell->True],
 
 Cell[CellGroupData[{
 
@@ -276,7 +1125,7 @@ Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"18", ",", "3"}], "}"}]], "Output"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -290,7 +1139,8 @@ Cell[BoxData[
   RowBox[{"Row", "[", 
    RowBox[{"{", 
     RowBox[{"3", ",", "\"\<\[Times]\>\"", ",", "iii"}], "}"}], 
-   "]"}]}]], "Input"],
+   "]"}]}]], "Input",
+ InitializationCell->True],
 
 Cell[BoxData[
  RowBox[{
@@ -299,7 +1149,9 @@ Cell[BoxData[
     RowBox[{"v_", ",", "0"}], "}"}], "]"}], ":=", 
   RowBox[{"Row", "[", 
    RowBox[{"{", 
-    RowBox[{"5", ",", "\"\<\[Times]\>\"", ",", "v"}], "}"}], "]"}]}]], "Input"],
+    RowBox[{"5", ",", "\"\<\[Times]\>\"", ",", "v"}], "}"}], "]"}]}]], "Input",\
+
+ InitializationCell->True],
 
 Cell[BoxData[
  RowBox[{
@@ -310,7 +1162,8 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{
     "5", ",", "\"\<\[Times]\>\"", ",", "v", ",", "\"\< + \>\"", ",", "3", 
-     ",", "\"\<\[Times]\>\"", ",", "iii"}], "}"}], "]"}]}]], "Input"],
+     ",", "\"\<\[Times]\>\"", ",", "iii"}], "}"}], "]"}]}]], "Input",
+ InitializationCell->True],
 
 Cell[CellGroupData[{
 
@@ -637,7 +1490,7 @@ Cell[BoxData[
   Function[BoxForm`e$, 
    TableForm[BoxForm`e$]]]], "Output"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -666,7 +1519,7 @@ Cell[BoxData[
 
 Cell[BoxData["True"], "Output"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -859,8 +1712,8 @@ sfo1+wLmfjD3g8lb9gXM/WDuB3O/9+b7Bek1bok=
   ImageSize->{677.21875, Automatic},
   PlotRangePadding->{6, 5}]], "Output"]
 }, Open  ]]
-}, Closed]]
-}, Closed]],
+}, Open  ]]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1262,7 +2115,7 @@ zP1g7gdzvzf1ReN8HuZ+MPd7V1/ApfwCtOJqsQ==
      Scaled[0.02]}},
   Ticks->{Automatic, Automatic}]], "Output"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1886,371 +2739,16 @@ Cell[BoxData[
    "7", ",", "6", ",", "8", ",", "7", ",", "6", ",", "8", ",", "7", ",", "9", 
    ",", "8", ",", "7", ",", "9", ",", "8", ",", "10"}], "}"}]], "Output"]
 }, Open  ]]
-}, Closed]]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["Combinations", "Section"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"d", "=", 
-   RowBox[{"Flatten", "[", 
-    RowBox[{
-     RowBox[{"Table", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"a", ",", "b", ",", 
-         RowBox[{
-          RowBox[{"3", "a"}], "+", 
-          RowBox[{"5", "b"}]}]}], "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"a", ",", "1", ",", "5", ",", 
-         RowBox[{"1", "/", "10"}]}], "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"b", ",", "1", ",", "5", ",", 
-         RowBox[{"1", "/", "10"}]}], "}"}]}], "]"}], ",", "1"}], "]"}]}], 
-  ";"}]], "Input"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Cases", "[", 
-  RowBox[{"d", ",", 
-   RowBox[{"{", 
-    RowBox[{"_Rational", ",", "_Rational", ",", "_Integer"}], "}"}]}], 
-  "]"}]], "Input"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["11", "10"], ",", "10"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["13", "10"], ",", "11"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["3", "2"], ",", "12"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["17", "10"], ",", "13"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["19", "10"], ",", "14"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["21", "10"], ",", "15"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["23", "10"], ",", "16"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["5", "2"], ",", "17"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["27", "10"], ",", "18"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["29", "10"], ",", "19"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["31", "10"], ",", "20"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["33", "10"], ",", "21"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["7", "2"], ",", "22"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["37", "10"], ",", "23"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["39", "10"], ",", "24"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["41", "10"], ",", "25"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["43", "10"], ",", "26"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["9", "2"], ",", "27"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["47", "10"], ",", "28"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["3", "2"], ",", 
-     FractionBox["49", "10"], ",", "29"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["11", "10"], ",", "13"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["13", "10"], ",", "14"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["3", "2"], ",", "15"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["17", "10"], ",", "16"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["19", "10"], ",", "17"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["21", "10"], ",", "18"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["23", "10"], ",", "19"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["5", "2"], ",", "20"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["27", "10"], ",", "21"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["29", "10"], ",", "22"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["31", "10"], ",", "23"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["33", "10"], ",", "24"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["7", "2"], ",", "25"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["37", "10"], ",", "26"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["39", "10"], ",", "27"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["41", "10"], ",", "28"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["43", "10"], ",", "29"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["9", "2"], ",", "30"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["47", "10"], ",", "31"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["5", "2"], ",", 
-     FractionBox["49", "10"], ",", "32"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["11", "10"], ",", "16"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["13", "10"], ",", "17"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["3", "2"], ",", "18"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["17", "10"], ",", "19"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["19", "10"], ",", "20"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["21", "10"], ",", "21"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["23", "10"], ",", "22"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["5", "2"], ",", "23"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["27", "10"], ",", "24"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["29", "10"], ",", "25"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["31", "10"], ",", "26"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["33", "10"], ",", "27"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["7", "2"], ",", "28"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["37", "10"], ",", "29"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["39", "10"], ",", "30"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["41", "10"], ",", "31"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["43", "10"], ",", "32"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["9", "2"], ",", "33"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["47", "10"], ",", "34"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["7", "2"], ",", 
-     FractionBox["49", "10"], ",", "35"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["11", "10"], ",", "19"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["13", "10"], ",", "20"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["3", "2"], ",", "21"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["17", "10"], ",", "22"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["19", "10"], ",", "23"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["21", "10"], ",", "24"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["23", "10"], ",", "25"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["5", "2"], ",", "26"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["27", "10"], ",", "27"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["29", "10"], ",", "28"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["31", "10"], ",", "29"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["33", "10"], ",", "30"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["7", "2"], ",", "31"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["37", "10"], ",", "32"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["39", "10"], ",", "33"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["41", "10"], ",", "34"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["43", "10"], ",", "35"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["9", "2"], ",", "36"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["47", "10"], ",", "37"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     FractionBox["9", "2"], ",", 
-     FractionBox["49", "10"], ",", "38"}], "}"}]}], "}"}]], "Output"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Data for Ruby Test", "Section"],
+
+Cell["\<\
+In order to genetare data for our tests, just run this command:\
+\>", "Text"],
 
 Cell[BoxData[
  RowBox[{"CopyToClipboard", "[", 
@@ -2264,8 +2762,12 @@ Cell[BoxData[
         RowBox[{"parsels", "[", "kg", "]"}]}], "]"}], ",", 
       RowBox[{"{", 
        RowBox[{"kg", ",", "8", ",", "100", ",", "1"}], "}"}]}], "]"}], ",", 
-    "\"\<CSV\>\""}], "]"}], "]"}]], "Input"]
-}, Closed]],
+    "\"\<CSV\>\""}], "]"}], "]"}]], "Input"],
+
+Cell["\<\
+and the paste into your text editor.\
+\>", "Text"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -2275,2066 +2777,1569 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"g1", "=", 
-  RowBox[{"Column", "[", 
+  RowBox[{"Rotate", "[", 
    RowBox[{
-    RowBox[{
+    RowBox[{"Column", "[", 
      RowBox[{
       RowBox[{
        RowBox[{
-        RowBox[{"Grid", "[", 
-         RowBox[{
-          RowBox[{"{", "#", "}"}], ",", 
-          RowBox[{"Spacings", "\[Rule]", "0"}]}], "]"}], "&"}], "/@", 
-       RowBox[{"Table", "[", 
         RowBox[{
-         RowBox[{"parsels", "[", "n", "]"}], ",", 
+         RowBox[{
+          RowBox[{"Grid", "[", 
+           RowBox[{
+            RowBox[{"{", "#", "}"}], ",", 
+            RowBox[{"Spacings", "\[Rule]", "0"}]}], "]"}], "&"}], "/@", 
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{"parsels", "[", "n", "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"n", ",", "8", ",", "50"}], "}"}]}], "]"}]}], "/.", 
+        RowBox[{
          RowBox[{"{", 
-          RowBox[{"n", ",", "8", ",", "40"}], "}"}]}], "]"}]}], "/.", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{"v_", ",", "iii_"}], "}"}], "\[RuleDelayed]", 
-       RowBox[{"Flatten", "[", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"Table", "[", 
-           RowBox[{"5", ",", 
-            RowBox[{"{", "v", "}"}]}], "]"}], ",", 
-          RowBox[{"Table", "[", 
-           RowBox[{"3", ",", 
-            RowBox[{"{", "iii", "}"}]}], "]"}]}], "}"}], "]"}]}]}], "/.", 
-     "\[IndentingNewLine]", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"5", "\[Rule]", 
-        RowBox[{"Graphics", "[", 
-         RowBox[{
+          RowBox[{"v_", ",", "iii_"}], "}"}], "\[RuleDelayed]", 
+         RowBox[{"Flatten", "[", 
           RowBox[{"{", 
            RowBox[{
-            RowBox[{"Lighter", "[", "Red", "]"}], ",", 
-            RowBox[{"Rectangle", "[", 
-             RowBox[{
-              RowBox[{"{", 
-               RowBox[{"0", ",", "0"}], "}"}], ",", 
-              RowBox[{"{", 
-               RowBox[{"5", ",", "3"}], "}"}]}], "]"}]}], "}"}], ",", 
-          RowBox[{"ImageSize", "\[Rule]", 
-           RowBox[{"{", 
-            RowBox[{"50", ",", "30"}], "}"}]}]}], "]"}]}], ",", 
+            RowBox[{"Table", "[", 
+             RowBox[{"3", ",", 
+              RowBox[{"{", "iii", "}"}]}], "]"}], ",", 
+            RowBox[{"Table", "[", 
+             RowBox[{"5", ",", 
+              RowBox[{"{", "v", "}"}]}], "]"}]}], "}"}], "]"}]}]}], "/.", 
        "\[IndentingNewLine]", 
-       RowBox[{"3", "\[Rule]", 
-        RowBox[{"Graphics", "[", 
-         RowBox[{
-          RowBox[{"{", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"5", "\[Rule]", 
+          RowBox[{"Graphics", "[", 
            RowBox[{
-            RowBox[{"Lighter", "[", "Blue", "]"}], ",", 
-            RowBox[{"Rectangle", "[", 
+            RowBox[{"{", 
              RowBox[{
-              RowBox[{"{", 
-               RowBox[{"0", ",", "0"}], "}"}], ",", 
-              RowBox[{"{", 
-               RowBox[{"3", ",", "3"}], "}"}]}], "]"}]}], "}"}], ",", 
-          RowBox[{"ImageSize", "\[Rule]", 
-           RowBox[{"{", 
-            RowBox[{"30", ",", "30"}], "}"}]}]}], "]"}]}]}], "}"}]}], ",", 
-    RowBox[{"Alignment", "\[Rule]", "Right"}], ",", 
-    RowBox[{"Spacings", "\[Rule]", "0"}]}], "]"}]}]], "Input"],
+              RowBox[{"FaceForm", "[", "LightGray", "]"}], ",", 
+              RowBox[{"EdgeForm", "[", 
+               RowBox[{"{", 
+                RowBox[{"LightGray", ",", 
+                 RowBox[{"AbsoluteThickness", "[", "5", "]"}]}], "}"}], "]"}],
+               ",", 
+              RowBox[{"Rectangle", "[", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"0", ",", "0"}], "}"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"5", ",", "3"}], "}"}]}], "]"}]}], "}"}], ",", 
+            RowBox[{"ImageSize", "\[Rule]", 
+             RowBox[{"{", 
+              RowBox[{"50", ",", "30"}], "}"}]}]}], "]"}]}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"3", "\[Rule]", 
+          RowBox[{"Graphics", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"FaceForm", "[", "White", "]"}], ",", 
+              RowBox[{"EdgeForm", "[", 
+               RowBox[{"{", 
+                RowBox[{"LightGray", ",", 
+                 RowBox[{"AbsoluteThickness", "[", "5", "]"}]}], "}"}], "]"}],
+               ",", 
+              RowBox[{"Rectangle", "[", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"0", ",", "0"}], "}"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"3", ",", "3"}], "}"}]}], "]"}]}], "}"}], ",", 
+            RowBox[{"ImageSize", "\[Rule]", 
+             RowBox[{"{", 
+              RowBox[{"30", ",", "30"}], "}"}]}]}], "]"}]}]}], "}"}]}], ",", 
+      RowBox[{"Alignment", "\[Rule]", "Left"}], ",", 
+      RowBox[{"Spacings", "\[Rule]", "0"}]}], "]"}], ",", 
+    RowBox[{"\[Pi]", "/", "2"}]}], "]"}]}]], "Input"],
 
 Cell[BoxData[
- TagBox[GridBox[{
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}], 
-         GraphicsBox[
-          {RGBColor[
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 1], 
-           RectangleBox[{0, 0}, {3, 3}]},
-          ImageSize->{30, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]},
-    {
-     TagBox[GridBox[{
-        {
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}], 
-         GraphicsBox[
-          {RGBColor[1, 
-            NCache[
-             Rational[1, 3], 0.3333333333333333], 
-            NCache[
-             Rational[1, 3], 0.3333333333333333]], 
-           RectangleBox[{0, 0}, {5, 3}]},
-          ImageSize->{50, 30}]}
-       },
-       AutoDelete->False,
-       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-       
-       GridBoxSpacings->{"Columns" -> {{0}}}],
-      "Grid"]}
-   },
-   DefaultBaseStyle->"Column",
-   GridBoxAlignment->{"Columns" -> {{Right}}},
-   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{0}}}],
-  "Column"]], "Output"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"g2", "=", 
-  RowBox[{"ImageReflect", "[", 
-   RowBox[{"Rasterize", "[", 
-    RowBox[{
-     RowBox[{"Rotate", "[", 
-      RowBox[{"g1", ",", 
-       RowBox[{"\[Pi]", "/", "2"}]}], "]"}], ",", 
-     RowBox[{"Background", "\[Rule]", "None"}]}], "]"}], "]"}]}]], "Input"],
-
-Cell[BoxData[
- GraphicsBox[
-  TagBox[RasterBox[CompressedData["
-1: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
-wI9Vfytqa2tra79HGwCAH6v+Vqy2L1V3Xm1fqu682gYA4MeqvxWr7UvVnVfb
-l6o7r7YBAPix6m/FavtSdefV9qXqzqttAAB+rPpbsdq+VN15tX2puvNqGwDg
-VTx+x6xeH9rR34rZtlvTdmvvu/NoGwDgVVR/r2lra2tra/9qGwDgVVR/r2lr
-a2tra/9qGwDgVVR/r2lra2tra/9qGwDgVVR/r2lra2tra/9qGwDgVVR/r2lr
-a2tra/9qGwDgVVR/r1Xbl6o7r7YvVXdebQMA8GPV34rV9qXqzqvtS9WdV9sA
-APxY9bditX2puvNq+1J159U2AAA/Vv2tWG1fqu682r5U3Xm1DQDwKh6/Y1av
-D+3ob8Vs261pu7X33Xm1fXhrAAA/I/t7TVtbW1tb+4XbAAA/o/qbSVtbW1tb
-+5XbAAA/o/qbSVtbW1tb+5XbAAA/o/qbSVtbW1tb+5XbAAA/o/qbSVtbW1tb
-+5XbAAA/o/qbqdq+VN15tX2puvNq+1J1bgDg9VR/K1bbl6o7r7YvVXdebV+q
-zg0AvJ7qb8Vq+1J159X2perOq+1L1bkBgNdT/a1YbV+q7rzavlTdebV9qTo3
-APDHPL7PV68P7ehvxWzbrWm7tffdebUdvTUA4PVkf69pa2tra2tr/6E2APB6
-qr9btLW1tbW1tf9YGwB4PdXfLdra2tra2tp/rA0AvJ7q7xZtbW1tbW3tP9YG
-AF5P9XeLtra2tra29h9rAwCvp/q7pdq+VN15tX2puvNq+5KdAwCvovq7pdq+
-VN15tX2puvNq+5KdAwCvovq7pdq+VN15tX2puvNq+5KdAwCvovq7pdq+VN15
-tX2puvNq+5KdAwA/4/Gdunp9aEd/t2Tbbk3brb3vzqtttzZvAwB/TPW3g7a2
-tra2tvbrtQGAP6b620FbW1tbW1v79doAwB9T/e2gra2tra2t/XptAOCPqf52
-0NbW1tbW1n69NgDwx1R/O2hra2tra2u/XhsA+GOqvx2q7UvVnVfbl6o7r7Yv
-VXde/XsDwCur/naoti9Vd15tX6ruvNq+VN159e8NAK+s+tuh2r5U3Xm1fam6
-82r7UnXn1b83ALyy6m+HavtSdefV9qXqzqvtS9WdV//eAPCrHt9rq9eHdvS3
-Q7bt1rTd2vvuvNp2a6k2ALyy6ve3tra2tra2tvbPtAHglVW/v7W1tbW1tbW1
-f6YNAK+s+v2tra2tra2trf0zbQB4ZdXvb21tbW1tbW3tn2kDwCurfn9ra2tr
-a2tra/9MGwBeWfX7u9q+VN15tX2puvNq+1J159U2ALyy6vd3tX2puvNq+1J1
-59X2perOq20AeGXV7+9q+1J159X2perOq+1L1Z1X2wDwyqrf39X2perOq+1L
-1Z1X25eqO6+2AeBXPb5bVq8P7ej3d7bt1rTd2vvuvNp2a9qjNgD8qup3qLa2
-tra2trb2q7QB4FdVv0O1tbW1tbW1tV+lDQC/qvodqq2tra2tra39Km0A+FXV
-71BtbW1tbW1t7VdpA8Cvqn6Hamtra2tra2u/ShsAflX1O7TavlTdebV9qbrz
-avtSdefVNgC8sur3d7V9qbrzavtSdefV9qXqzqttAHhl1e/vavtSdefV9qXq
-zqvtS9WdV9sA8Mqq39/V9qXqzqvtS9WdV9uXqjuvtgHgVz2+W1avD+3o93e2
-7da03dr77rzadmvagVsD4D1kv0O1tbW1tbW1tbV/2AbgPVS/x7S1tbW1tbW1
-tX/cBuA9VL/HtLW1tbW1tbW1f9wG4D1Uv8e0tbW1tbW1tbV/3AbgPVS/x7S1
-tbW1tbW1tX/cBuA9VL/Hqu1L1Z1X25eqO6+2L1V3Xm1fqs4NwOepfn9X25eq
-O6+2L1V3Xm1fqu682r5UnRuAz1P9/q62L1V3Xm1fqu682r5U3Xm1fak6NwCf
-p/r9XW1fqu682r5U3Xm1fam682r7UnVugHfz+IxdvT60o9/f2bZb03Zr77vz
-atutabu1L50bgM+T/Q7V1tbW1tbW1tZ+6jYAn6f6XaKtra2tra2trf3cbQA+
-T/W7RFtbW1tbW1tb+7nbAHye6neJtra2tra2trb2c7cB+DzV7xJtbW1tbW1t
-be3nbgPwearfJdX2perOq+1L1Z1X25eqO6+2L9k5AL+q+l1SbV+q7rzavlTd
-ebV9qbrzavuSnQPwq6rfJdX2perOq+1L1Z1X25eqO6+2L9k5AL+q+l1SbV+q
-7rzavlTdebV9qbrzavuSnQO8h8fn3Or1oR39Lsm23Zq2W3vfnVfbbk3brb3t
-zgHeTfXzXFtbW1tbW1tbW/t7bYB3U/0819bW1tbW1tbW1v5eG+DdVD/PtbW1
-tbW1tbW1tb/XBng31c9zbW1tbW1tbW1t7e+1Ad5N9fNcW1tbW1tbW1tb+3tt
-gHdT/Tyvti9Vd15tX6ruvNq+VN15tX2puvPq3xvgK1Q/z6vtS9WdV9uXqjuv
-ti9Vd15tX6ruvPr3BvgK1c/zavtSdefV9qXqzqvtS9WdV9uXqjuv/r0BvkL1
-87zavlTdebV9qbrzavtSdefV9qXqzqt/b+B9PT5rVq8P7ejnebbt1rTd2vvu
-vNp2a9pu7X13ftgG+ArVz1RtbW1tbW1tbW3tZ2wDfIXqZ6q2tra2tra2trb2
-M7YBvkL1M1VbW1tbW1tbW1v7GdsAX6H6maqtra2tra2tra39jG2Ar1D9TNXW
-1tbW1tbW1tZ+xjbAV6h+plbbl6o7r7YvVXdebV+q7rzavlTdebUN8BWqn6nV
-9qXqzqvtS9WdV9uXqjuvti9Vd15tA3yF6mdqtX2puvNq+1J159X2perOq+1L
-1Z1X2wBfofqZWm1fqu682r5U3Xm1fam682r7UnXn1Tbwvh7v99XrQzv6mZpt
-uzVtt/a+O6+23Zq2W3vfnUfbwPuqfq5pa2tra2tra2tra3v2h4rq55q2tra2
-tra2tra2tmd/qKh+rmlra2tra2tra2tre/aHiurnmra2tra2tra2tra2Z3+o
-qH6uaWtra2tra2tra2t79oeK6udatX2puvNq+1J159X2perOq+1L1Z1X2wBf
-ofqZWm1fqu682r5U3Xm1fam682r7UnXn1TbAV6h+plbbl6o7r7YvVXdebV+q
-7rzavlTdebUN8BWqn6nV9qXqzqvtS9WdV9uXqjuvti9Vd15tA+/r8X5fvT60
-o5+p2bZb03Zr77vzatutabu19915tX14a8DXyn6uaWtra2tra2tra2s/TRv4
-WtXPFm1tbW1tbW1tbW3t52kDX6v62aKtra2tra2tra2t/Txt4GtVP1u0tbW1
-tbW1tbW1tZ+nDXyt6meLtra2tra2tra2tvbztIGvVf1sqbYvVXdebV+q7rza
-vlTdebV9qbrzavtSdW4oqH6mVtuXqjuvti9Vd15tX6ruvNq+VN15tX2pOjcU
-VD9Tq+1L1Z1X25eqO6+2L1V3Xm1fqu682r5UnRsKqp+p1fal6s6r7UvVnVfb
-l6o7r7YvVXdebV+qzg0rj7tfvT60o5+p2bZb03Zr77vzatutabu19915tR29
-NSjIfq5pa2tra2tra2tra2tDRPX9ra2tra2tra2tra2tDRXV97e2tra2tra2
-tra2tjZUVN/f2tra2tra2tra2traUFF9f2tra2tra2tra2tra0NF9f1dbV+q
-7rzavlTdebV9qbrzavtSdefV9iU7h/dVfX9X25eqO6+2L1V3Xm1fqu682r5U
-3Xm1fcnO4X1V39/V9qXqzqvtS9WdV9uXqjuvti9Vd15tX7JzeF/V93e1fam6
-82r7UnXn1fal6s6r7UvVnVfbl+wcvtbj9lavD+3o+zvbdmvabu19d15tuzVt
-t/a+O6+23dq8DSvV95i2tra2tra2tra2tvZ1G1aq7zFtbW1tbW1tbW1tbe3r
-NqxU32Pa2tra2tra2tra2trXbVipvse0tbW1tbW1tbW1tbWv27BSfY9pa2tr
-a2tra2tra2tft2Gl+h6rti9Vd15tX6ruvNq+VN15tX2puvNq+1J159W/Ny3V
-91i1fam682r7UnXn1fal6s6r7UvVnVfbl6o7r/69aam+x6rtS9WdV9uXqjuv
-ti9Vd15tX6ruvNq+VN159e/N1l/+8tuff3/9dfj689/3q++xYtutabu19915
-te3WtN3a++682nZrvTYdj/fb9tR+++vf96vvsWLbrWmv2m5Ne9V2a9qrtlvT
-XrXdWq9Nh/e39qrt1rRXbbemvWq7Ne1V261pr9purdemw/tbe9V2a9qrtlvT
-XrXdmvaq7da0V2231mvT4f2tvWq7Ne1V261pr9puTXvVdmvaq7Zb67Xp8P7W
-XrXdmvaq7da0V223pr1quzXtVdut9dp0eH9rr9puTXvVdmvaq7Zb01613Zr2
-qu3Wem06vL977Sturde+4tZ67Sturde+4tZ67Sturdemw/u7177i1nrtK26t
-177i1nrtK26t177i1nptOry/e+0rbq3XvuLWeu0rbq3XvuLWeu0rbq3XpsP7
-u9e+4tZ67Sturde+4tZ67Sturde+4tZ6bfYef4PV6++73t/Btltr/b3dmlsr
-tN1a6+/t1txaoe3WWn/vwzZ7V39v72/tVdutaa/abk171XZr2qu2W9Netd1a
-r83e1d/b+1t71XZr2qu2W9Netd2a9qrt1rRXbbfWa7N39ff2/tZetd2a9qrt
-1rRXbbemvWq7Ne1V26312uxd/b29v7VXbbemvWq7Ne1V261pr9puTXvVdmu9
-NntXf2/vb+1V261pr9puTXvVdmvaq7Zb01613Vqvzd7V39v7u/cec2tubcWt
-ubUVt+bWVtyaW1txa26N9+X97f294tbc2opbc2srbs2trbg1t7bi1twa78v7
-2/t7xa25tRW35tZW3JpbW3Frbm3Frbk13pf3t/f3iltzaytuza2tuDW3tuLW
-3NqKW3NrfK3H32D1+tD2/k69v92aW3Nrbs2tuTW35tbcmltza27t+taqirfm
-/a29ars17VXbrWmv2m5Ne9V2a9qrtlvrtauKf2/vb+1V261pr9puTXvVdmva
-q7Zb01613VqvXVX8e3t/a6/abk171XZr2qu2W9Netd2a9qrt1nrtquLf2/tb
-e9V2a9qrtlvTXrXdmvaq7da0V2231mtXFf/e3t/aq7Zb01613Zr2qu3WtFdt
-t6a9aru1Xruq+Pcuv78vuTW3tuLW3NqKW3NrK27Nra24Nbe2Up370uXOL9uP
-9/jq9Uw7v+TW3NqKW3NrK27Nra24Nbe24tbc2kp17kvV9/clc7u1FXO7tRVz
-u7UVc7u1FXO7tRVzd+b+2z//+evw9ee/7xff39WdV+e2c3O7tffdeXVuOze3
-W3vfnVfntnNzL2/tymMH27Gf598vubzz4s6rc9u5uVdz27m5V3PbublXc9u5
-uVdz27m5V3NfKu/8ql3deXVuOzf3am47N/dqbjs392puOzf3am47N/dq7kvl
-nV+1qzuvzm3n5l7NbefmXs1t5+ZezW3n5l7NbefmXs19qbzzq3Z159W57dzc
-q7nt3Nyrue3c3Ku57dzcq7nt3NyruS+Vd37Vru68Oredm3s1t52bezW3nZt7
-Nbedm3s1t52bezX3pfLOr9rVnVfntnNzr+a2c3Ov5rZzc6/mtnNzr+a2c3Ov
-5r5U3vlV+3rnV67ndmtuza25tc92Pbdbc2tuza19tuu53ZpbK9zalfLOr9rX
-O79yPbdbc2tuza19tuu53Zpbc2tu7bNdz+3W3Frh1q6Ud37Vvt75leu53Zpb
-c2tu7bNdz+3W3Jpbc2uf7Xput+bWCrd2pbzzq/b1zq9cz+3W3Jpbc2uf7Xpu
-t+bW3Jpb+2zXc7s1t5a4td//++pl57ft8527Nbfm1tyaW3Nrbs2tuTW35tbc
-mltza3Zu5+b+tLnt3Nyrue3c3Ku57dzcq7nt3Nyrue3c3Ku57dzOCzuvzm3n
-5l7NbefmXs1t5+ZezW3n5l7NbefmXs1t53Ze2Hl1bjs392puOzf3am47N/dq
-bjs392puOzf3am47t/PCzqtz27m5V3PbublXc9u5uVdz27m5V3PbublXc9u5
-nRd2Xp3bzs29mtvOzb2a287NvZrbzs29mtvOzb2a287tvLDz6tx2bu7V3HZu
-7tXcdm7u1dx2bu7V3HZu7tXcdm7nhZ1X57Zzc6/mtnNzr+a2c3Ov5rZzc6/m
-tnNzr+a2czsv7Lw6t52bezW3nZt7Nbedm3s1t52bezW3nZt7Nbed23lh59W5
-7dzcq7nt3Nyrue3c3Ku57dzcq7nt3Nyrue3czgs7r85t5+ZezW3n5l7Nbefm
-Xs1t5+ZezW3n5l7Nbed2Xth5dW47N/dqbjs392puOzf3am47N/dqbjs392pu
-O7fzws6rc9u5uVdz27m5V3PbublXc9u5uVdz27m5V3PbuZ0Xdl6d287NvZrb
-zs29mtvOzb2a287NvZrbzs29mtvO7byw8+rcdm7u1dx2bu7V3HZu7tXcdm7u
-1dx2bu7V3HZu54WdV+e2c3Ov5rZzc6/mtnNzr+a2c3Ov5rZzc6/mtvObnV+p
-7rw696XqzqtzX6ruvDr3perOq3Nfqu68Ovel6s6rc1+3H3tfvf79rV/Ofam6
-8+rcl6o7r859qbrz6tyXqjuvzn2puvPq3JeqO6/OXb3z6tyXqjuvzn2puvPq
-3JeqO6/Ofam68+rcl6o7r859qbrzy7mv2n/75yB/Hb7yc9u5ud3a++68Ored
-m9utve/Oq3Pbubnd2vvu/HLu651v08/x71lczm3n5l7NbefmXs1t5+ZezW3n
-5l7NbefmXs1t56257bw1t52bezW3nZt7Nbedm3s1t52bezW3nZt7Nbedt+a2
-89bcdm7u1dx2bu7V3HZu7tXcdm7u1dx2bu7V3HbemtvOW3PbublXc9u5uVdz
-27m5V3PbublXc9u5uVdz23lrbjtvzW3n5l7NbefmXs1t5+ZezW3n5l7Nbefm
-Xs1t56257bw1t52bezW3nZt7Nbedm3s1t52bezW3nZt7Nbedt+Yu7/yK97db
-W3Frbm3Frbm1Fbfm1lbcmltbcWtubcnOt7y/3dqKW3NrK27Nra24Nbe24tbc
-2opbc2tLdr7l/e3WVtyaW1txa25txa25tRW35tZW3JpbW7LzLe9vt7bi1tza
-iltzaytuza2tuDW3tuLW3NpSdeeP/y2r1993vb/dmltza27Nrbk1t+bW3Jpb
-c2vXc5/v3K1Nby298+Dcdm7u1dx2bu7V3HZu7tXcdm7u1dx2bu7V3HbemtvO
-W3PbublXc9u5uVdz27m5V3PbublXc9u5uVdz23lrbjtvzW3n5l7NbefmXs1t
-5+ZezW3n5l7NbefmXs1t56257bw1t52bezW3nZt7Nbedm3s1t52bezW3nZt7
-Nbedt+a289bcdm7u1dx2bu7V3HZu7tXcdm7u1dx2bu7V3HbemtvOW3PbublX
-c9u5uVdz27m5V3PbublXc9u5uVdz23lrbjtvzW3n5l7NbefmXs1t5+ZezW3n
-5l7NbefmXs1t56257bw1t52bezW3nZt7Nbedm3s1t52bezW3nZt7Nbedt+a2
-89bcdm7u1dx2bu7V3HZu7tXcdm7u1dx2bu7V3HbemtvOW3PbublXc9u5uVdz
-27m5V3PbublXc9u5uVdz23lrbjtvzW3n5l7NbefmXs1t5+ZezW3n5l7Nbefm
-Xs1t56257bw1t52bezW3nZt7Nbedm3s1t52bezW3nZt7Nbedt+a289bcdm7u
-1dx2bu7V3HZu7tXcdm7u1dx2bu7V3HbemtvOW3PbublXc9u5uVdz27m5V3Pb
-ublXc9u5uVdz23lrbjtvzW3n5l7NbefmXs1t5+ZezW3n5l7NbefmXs1t5625
-L1V3Xn5/X7me2625Nbfm1j7b9dxuza25Nbf22a7ndmtu7d1v7dpj76vXv29f
-7vxy7sv2Jbfm1lbcmltbcWtubcWtubUVt+bWVqq3VmXnrLg1VtwaK26NFbfG
-iltj5erW/vbPIv46fD1F28613dr77rzadmvabu19d15tuzVtt/a+O6+2r29t
-m36ef7/EzrUXbbemvWq7Ne1V261pr9puTXvVdmvaq7Zbs/PCzqttt6a9ars1
-7VXbrWmv2m5Ne9V2a9qrtluz88LOq223pr1quzXtVdutaa/abk171XZr2qu2
-W7Pzws6rbbemvWq7Ne1V261pr9puTXvVdmvaq7Zbs/PCzqttt6a9ars17VXb
-rWmv2m5Ne9V2a9qrtluz88LOq223pr1quzXtVdutaa/abk171XZr2qu2W7Pz
-ws6rbbemvWq7Ne1V261pr9puTXvVdmvaq7Zbs/PCzqttt6a9ars17VXbrWmv
-2m5Ne9V2a9qrtluz88LOq223pr1quzXtVdutaa/abk171XZr2qu2W7Pzws6r
-bbemvWq7Ne1V261pr9puTXvVdmvaq7Zbs/PCzqttt6a9ars17VXbrWmv2m5N
-e9V2a9qrtluz88LOq223pr1quzXtVdutaa/abk171XZr2qu2W7Pzws6rbbem
-vWq7Ne1V261pr9puTXvVdmvaq7Zbs/PCzqttt6a9ars17VXbrWmv2m5Ne9V2
-a9qrtluz88LOq223pr1quzXtVdutaa/abk171XZr2qu2W7Pzws6rbbemvWq7
-Ne1V261pr9puTXvVdmvaq7Zbs/PCzqttt6a9ars17VXbrWmv2m5Ne9V2a9qr
-tluz88LOq223pr1quzXtVdutaa/abk171XZr2qu2W7Pzws6rbbemvWq7Ne1V
-261pr9puTXvVdmvaq7Zbs/PCzqttt6a9ars17VXbrWmv2m5Ne9V2a9qrtluz
-88LOq223pr1quzXtVdutaa/abk171XZr2qu2W7Pzws6rbbemvWq7Ne1V261p
-r9puTXvVdmvaq7Zbs/PCzqttt6a9ars17VXbrWmv2m5Ne9V2a9qrtluz88LO
-q223pr1quzXtVdutaa/abk171XZr2qu2W7Pzws6rbbemvWq7Ne1V261pr9pu
-TXvVdmvaq7Zbs/PCzqttt6a9ars17VXbrWmv2m5Ne9V2a9qrtlu72fmV6s6r
-7UvVnVfbl6o7r7YvVXdebV+q7rzavlTdebV97TH76vVM7UvVnVfbl6o7r7Yv
-VXdebV+q7rzavlTdebV9qbrzahsAAAAAAAAA4Gf9P+dW2rY=
-    "], {{0, 402}, {1023, 
-    0}}, {0, 255},
-    ColorFunction->RGBColor],
-   BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
-   Selectable->False],
-  BaseStyle->"ImageGraphics",
-  ImageSize->{1023, 402},
-  ImageSizeRaw->{1023, 402},
-  PlotRange->{{0, 1023}, {0, 402}}]], "Output"]
+ RotationBox[
+  TagBox[GridBox[{
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[1]], RectangleBox[{0, 0}, {3, 3}]},
+           ImageSize->{30, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]},
+     {
+      TagBox[GridBox[{
+         {
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}], 
+          GraphicsBox[
+           {EdgeForm[{GrayLevel[0.85], AbsoluteThickness[5]}], FaceForm[
+            GrayLevel[0.85]], RectangleBox[{0, 0}, {5, 3}]},
+           ImageSize->{50, 30}]}
+        },
+        AutoDelete->False,
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{0}}}],
+       "Grid"]}
+    },
+    DefaultBaseStyle->"Column",
+    GridBoxAlignment->{"Columns" -> {{Left}}},
+    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+    GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{0}}}],
+   "Column"],
+  BoxRotation->1.5707963267948966`]], "Output"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4342,20 +4347,23 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"Export", "[", 
   RowBox[{
-  "\"\<~/Sites/parsels/app/assets/images/bg.png\>\"", ",", "g2", ",", 
+  "\"\<~/Sites/parcels/app/assets/images/bg.png\>\"", ",", "g1", ",", 
    RowBox[{"Background", "\[Rule]", "None"}]}], "]"}]], "Input"],
 
-Cell[BoxData["\<\"~/Sites/parsels/app/assets/images/bg.png\"\>"], "Output"]
+Cell[BoxData["\<\"~/Sites/parcels/app/assets/images/bg.png\"\>"], "Output"]
 }, Open  ]]
-}, Closed]]
+}, Open  ]]
 }, Open  ]]
 },
+WindowToolbars->"EditBar",
+WindowSize->{1364, 718},
 Visible->True,
 ScrollingOptions->{"VerticalScrollRange"->Fit},
-ShowCellBracket->Automatic,
+ShowCellBracket->False,
+Deployed->True,
 CellContext->Notebook,
 TrackCellChangeTimes->False,
-FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (June 20, \
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
 2013)",
 StyleDefinitions->"Default.nb"
 ]
@@ -4371,211 +4379,220 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[1486, 35, 24, 0, 92, "Title"],
-Cell[1513, 37, 90, 2, 30, "Text"],
+Cell[1485, 35, 24, 0, 92, "Title"],
+Cell[1512, 37, 90, 2, 30, "Text"],
+Cell[1605, 41, 29980, 496, 184, "Input"],
 Cell[CellGroupData[{
-Cell[1628, 43, 32, 0, 80, "Section"],
-Cell[1663, 45, 571, 15, 220, "Text"]
+Cell[31610, 541, 415, 9, 28, "Input"],
+Cell[32028, 552, 16500, 322, 280, "Output"]
+}, {2}]],
+Cell[CellGroupData[{
+Cell[48562, 879, 32, 0, 80, "Section"],
+Cell[48597, 881, 43, 0, 30, "Text"],
+Cell[CellGroupData[{
+Cell[48665, 885, 181, 3, 30, "ItemNumbered"],
+Cell[48849, 890, 187, 3, 30, "ItemNumbered"],
+Cell[CellGroupData[{
+Cell[49061, 897, 36, 0, 26, "Subitem"],
+Cell[49100, 899, 37, 0, 26, "Subitem"]
+}, Open  ]],
+Cell[49152, 902, 50, 0, 30, "ItemNumbered"],
+Cell[49205, 904, 160, 3, 30, "ItemNumbered"]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2271, 65, 35, 0, 80, "Section"],
-Cell[2309, 67, 122, 3, 27, "Text"],
-Cell[2434, 72, 48, 0, 30, "Text"],
+Cell[49414, 913, 35, 0, 80, "Section"],
+Cell[49452, 915, 122, 3, 27, "Text"],
+Cell[49577, 920, 48, 0, 30, "Text"],
 Cell[CellGroupData[{
-Cell[2507, 76, 52, 1, 28, "Input"],
-Cell[2562, 79, 29, 0, 28, "Output"]
+Cell[49650, 924, 52, 1, 28, "Input"],
+Cell[49705, 927, 29, 0, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2628, 84, 52, 1, 28, "Input"],
-Cell[2683, 87, 32, 0, 28, "Output"]
+Cell[49771, 932, 52, 1, 28, "Input"],
+Cell[49826, 935, 32, 0, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2752, 92, 83, 2, 28, "Input"],
-Cell[2838, 96, 29, 0, 28, "Output"]
+Cell[49895, 940, 83, 2, 28, "Input"],
+Cell[49981, 944, 29, 0, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2904, 101, 102, 3, 28, "Input"],
-Cell[3009, 106, 29, 0, 28, "Output"]
+Cell[50047, 949, 102, 3, 28, "Input"],
+Cell[50152, 954, 29, 0, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3075, 111, 129, 4, 28, "Input"],
-Cell[3207, 117, 28, 0, 28, "Output"]
+Cell[50218, 959, 129, 4, 28, "Input"],
+Cell[50350, 965, 28, 0, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3272, 122, 195, 6, 28, "Input"],
-Cell[3470, 130, 32, 0, 28, "Output"]
+Cell[50415, 970, 195, 6, 28, "Input"],
+Cell[50613, 978, 32, 0, 28, "Output"]
 }, Open  ]],
-Cell[3517, 133, 49, 0, 30, "Text"],
+Cell[50660, 981, 49, 0, 30, "Text"],
 Cell[CellGroupData[{
-Cell[3591, 137, 107, 3, 28, "Input"],
-Cell[3701, 142, 29, 0, 28, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[3767, 147, 153, 5, 28, "Input"],
-Cell[3923, 154, 29, 0, 28, "Output"]
+Cell[50734, 985, 107, 3, 28, "Input"],
+Cell[50844, 990, 29, 0, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3989, 159, 182, 6, 28, "Input"],
-Cell[4174, 167, 28, 0, 28, "Output"]
+Cell[50910, 995, 153, 5, 28, "Input"],
+Cell[51066, 1002, 29, 0, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4239, 172, 255, 9, 28, "Input"],
-Cell[4497, 183, 31, 0, 28, "Output"]
+Cell[51132, 1007, 182, 6, 28, "Input"],
+Cell[51317, 1015, 28, 0, 28, "Output"]
 }, Open  ]],
-Cell[4543, 186, 65, 0, 30, "Text"],
 Cell[CellGroupData[{
-Cell[4633, 190, 208, 7, 49, "Input"],
-Cell[4844, 199, 28, 0, 28, "Output"]
+Cell[51382, 1020, 255, 9, 28, "Input"],
+Cell[51640, 1031, 31, 0, 28, "Output"]
 }, Open  ]],
-Cell[4887, 202, 29, 0, 30, "Text"],
+Cell[51686, 1034, 65, 0, 30, "Text"],
 Cell[CellGroupData[{
-Cell[4941, 206, 96, 3, 28, "Input"],
-Cell[5040, 211, 29, 0, 28, "Output"]
+Cell[51776, 1038, 208, 7, 49, "Input"],
+Cell[51987, 1047, 28, 0, 28, "Output"]
+}, Open  ]],
+Cell[52030, 1050, 29, 0, 30, "Text"],
+Cell[CellGroupData[{
+Cell[52084, 1054, 96, 3, 28, "Input"],
+Cell[52183, 1059, 29, 0, 28, "Output"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[5118, 217, 54, 0, 50, "Section"],
+Cell[52261, 1065, 54, 0, 50, "Section"],
 Cell[CellGroupData[{
-Cell[5197, 221, 55, 0, 36, "Subsection"],
-Cell[5255, 223, 1458, 44, 40, "Input"],
+Cell[52340, 1069, 55, 0, 44, "Subsection"],
+Cell[52398, 1071, 1485, 45, 46, "Input",
+ InitializationCell->True],
 Cell[CellGroupData[{
-Cell[6738, 271, 61, 1, 28, "Input"],
-Cell[6802, 274, 74, 2, 28, "Output"]
+Cell[53908, 1120, 61, 1, 28, "Input"],
+Cell[53972, 1123, 74, 2, 28, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[54095, 1131, 58, 0, 44, "Subsection"],
+Cell[54156, 1133, 278, 9, 22, "Input",
+ InitializationCell->True],
+Cell[54437, 1144, 272, 9, 28, "Input",
+ InitializationCell->True],
+Cell[54712, 1155, 351, 10, 28, "Input",
+ InitializationCell->True],
+Cell[CellGroupData[{
+Cell[55088, 1169, 100, 2, 28, "Input"],
+Cell[55191, 1173, 112, 2, 28, "Output"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[6925, 282, 58, 0, 36, "Subsection"],
-Cell[6986, 284, 251, 8, 22, "Input"],
-Cell[7240, 294, 243, 7, 28, "Input"],
-Cell[7486, 303, 324, 9, 28, "Input"],
+Cell[55352, 1181, 38, 0, 36, "Subsection"],
 Cell[CellGroupData[{
-Cell[7835, 316, 100, 2, 28, "Input"],
-Cell[7938, 320, 112, 2, 28, "Output"]
+Cell[55415, 1185, 313, 10, 28, "Input"],
+Cell[55731, 1197, 10085, 293, 1593, "Output"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[8099, 328, 38, 0, 36, "Subsection"],
+Cell[65865, 1496, 35, 0, 44, "Subsection"],
+Cell[65903, 1498, 40, 0, 30, "Text"],
 Cell[CellGroupData[{
-Cell[8162, 332, 313, 10, 22, "Input"],
-Cell[8478, 344, 10085, 293, 1593, "Output"]
+Cell[65968, 1502, 511, 15, 28, "Input"],
+Cell[66482, 1519, 31, 0, 28, "Output"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[18612, 643, 35, 0, 36, "Subsection"],
-Cell[18650, 645, 40, 0, 27, "Text"],
+Cell[66562, 1525, 27, 0, 44, "Subsection"],
 Cell[CellGroupData[{
-Cell[18715, 649, 511, 15, 28, "Input"],
-Cell[19229, 666, 31, 0, 28, "Output"]
+Cell[66614, 1529, 2249, 63, 97, "Input"],
+Cell[68866, 1594, 5336, 118, 434, "Output"]
 }, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[19309, 672, 27, 0, 36, "Subsection"],
-Cell[CellGroupData[{
-Cell[19361, 676, 2249, 63, 91, "Input"],
-Cell[21613, 741, 5336, 118, 434, "Output"]
 }, Open  ]]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[27010, 866, 43, 0, 50, "Section"],
-Cell[27056, 868, 16475, 275, 112, "Input"],
-Cell[CellGroupData[{
-Cell[43556, 1147, 31, 0, 44, "Subsection"],
-Cell[43590, 1149, 66, 0, 27, "Text"],
-Cell[CellGroupData[{
-Cell[43681, 1153, 250, 7, 28, "Input"],
-Cell[43934, 1162, 190, 4, 28, "Output"]
 }, Open  ]],
-Cell[44139, 1169, 120, 4, 30, "Text"],
 Cell[CellGroupData[{
-Cell[44284, 1177, 73, 1, 28, "Input"],
-Cell[44360, 1180, 189, 6, 44, "Output"]
+Cell[74263, 1719, 43, 0, 80, "Section"],
+Cell[74309, 1721, 16475, 275, 118, "Input"],
+Cell[CellGroupData[{
+Cell[90809, 2000, 31, 0, 44, "Subsection"],
+Cell[90843, 2002, 66, 0, 30, "Text"],
+Cell[CellGroupData[{
+Cell[90934, 2006, 250, 7, 28, "Input"],
+Cell[91187, 2015, 190, 4, 28, "Output"]
 }, Open  ]],
-Cell[44564, 1189, 118, 3, 30, "Text"],
+Cell[91392, 2022, 120, 4, 30, "Text"],
 Cell[CellGroupData[{
-Cell[44707, 1196, 889, 27, 63, "Input"],
-Cell[45599, 1225, 1591, 37, 160, "Output"]
+Cell[91537, 2030, 73, 1, 28, "Input"],
+Cell[91613, 2033, 189, 6, 44, "Output"]
+}, Open  ]],
+Cell[91817, 2042, 118, 3, 30, "Text"],
+Cell[CellGroupData[{
+Cell[91960, 2049, 889, 27, 63, "Input"],
+Cell[92852, 2078, 1591, 37, 160, "Output"]
 }, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[47239, 1268, 31, 0, 36, "Subsection"],
-Cell[47273, 1270, 66, 0, 27, "Text"],
-Cell[CellGroupData[{
-Cell[47364, 1274, 250, 7, 28, "Input"],
-Cell[47617, 1283, 190, 4, 28, "Output"]
-}, Open  ]],
-Cell[47822, 1290, 226, 6, 30, "Text"],
-Cell[CellGroupData[{
-Cell[48073, 1300, 73, 1, 28, "Input"],
-Cell[48149, 1303, 901, 24, 37, "Output"]
-}, Open  ]],
-Cell[49065, 1330, 176, 6, 31, "Text"],
-Cell[CellGroupData[{
-Cell[49266, 1340, 555, 16, 28, "Input"],
-Cell[49824, 1358, 1120, 28, 114, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[50981, 1391, 302, 9, 28, "Input"],
-Cell[51286, 1402, 1919, 70, 48, "Output"]
-}, Open  ]],
-Cell[53220, 1475, 147, 4, 30, "Text"],
+Cell[94492, 2121, 31, 0, 44, "Subsection"],
+Cell[94526, 2123, 66, 0, 30, "Text"],
 Cell[CellGroupData[{
-Cell[53392, 1483, 107, 3, 28, "Input"],
-Cell[53502, 1488, 3864, 132, 86, "Output"]
+Cell[94617, 2127, 250, 7, 28, "Input"],
+Cell[94870, 2136, 190, 4, 28, "Output"]
 }, Open  ]],
-Cell[57381, 1623, 96, 2, 30, "Text"],
+Cell[95075, 2143, 226, 6, 30, "Text"],
 Cell[CellGroupData[{
-Cell[57502, 1629, 328, 10, 28, "Input"],
-Cell[57833, 1641, 1137, 36, 28, "Output"]
+Cell[95326, 2153, 73, 1, 28, "Input"],
+Cell[95402, 2156, 901, 24, 37, "Output"]
 }, Open  ]],
-Cell[58985, 1680, 53, 0, 30, "Text"],
+Cell[96318, 2183, 176, 6, 31, "Text"],
 Cell[CellGroupData[{
-Cell[59063, 1684, 448, 14, 28, "Input"],
-Cell[59514, 1700, 1137, 36, 28, "Output"]
-}, Open  ]],
-Cell[60666, 1739, 46, 0, 30, "Text"],
-Cell[CellGroupData[{
-Cell[60737, 1743, 480, 15, 49, "Input"],
-Cell[61220, 1760, 1919, 70, 48, "Output"]
+Cell[96519, 2193, 555, 16, 28, "Input"],
+Cell[97077, 2211, 1120, 28, 114, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[63176, 1835, 553, 17, 65, "Input"],
-Cell[63732, 1854, 507, 8, 28, "Output"]
+Cell[98234, 2244, 302, 9, 28, "Input"],
+Cell[98539, 2255, 1919, 70, 86, "Output"]
 }, Open  ]],
-Cell[64254, 1865, 65, 0, 30, "Text"],
+Cell[100473, 2328, 147, 4, 30, "Text"],
 Cell[CellGroupData[{
-Cell[64344, 1869, 250, 7, 28, "Input"],
-Cell[64597, 1878, 507, 8, 28, "Output"]
+Cell[100645, 2336, 107, 3, 28, "Input"],
+Cell[100755, 2341, 3864, 132, 124, "Output"]
+}, Open  ]],
+Cell[104634, 2476, 96, 2, 30, "Text"],
+Cell[CellGroupData[{
+Cell[104755, 2482, 328, 10, 28, "Input"],
+Cell[105086, 2494, 1137, 36, 46, "Output"]
+}, Open  ]],
+Cell[106238, 2533, 53, 0, 30, "Text"],
+Cell[CellGroupData[{
+Cell[106316, 2537, 448, 14, 28, "Input"],
+Cell[106767, 2553, 1137, 36, 46, "Output"]
+}, Open  ]],
+Cell[107919, 2592, 46, 0, 30, "Text"],
+Cell[CellGroupData[{
+Cell[107990, 2596, 480, 15, 49, "Input"],
+Cell[108473, 2613, 1919, 70, 86, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[110429, 2688, 553, 17, 65, "Input"],
+Cell[110985, 2707, 507, 8, 28, "Output"]
+}, Open  ]],
+Cell[111507, 2718, 65, 0, 30, "Text"],
+Cell[CellGroupData[{
+Cell[111597, 2722, 250, 7, 28, "Input"],
+Cell[111850, 2731, 507, 8, 28, "Output"]
 }, Open  ]]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[65165, 1893, 31, 0, 50, "Section"],
-Cell[65199, 1895, 567, 18, 22, "Input"],
-Cell[CellGroupData[{
-Cell[65791, 1917, 166, 5, 28, "Input"],
-Cell[65960, 1924, 9621, 322, 238, "Output"]
 }, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[75630, 2252, 37, 0, 50, "Section"],
-Cell[75670, 2254, 418, 12, 22, "Input"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[76125, 2271, 24, 0, 50, "Section"],
-Cell[CellGroupData[{
-Cell[76174, 2275, 2244, 64, 57, "Input"],
-Cell[78421, 2341, 56216, 1776, 1041, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[134674, 4122, 291, 8, 28, "Input"],
-Cell[134968, 4132, 12130, 204, 417, "Output"]
+Cell[112418, 2746, 37, 0, 80, "Section"],
+Cell[112458, 2748, 87, 2, 30, "Text"],
+Cell[112548, 2752, 418, 12, 28, "Input"],
+Cell[112969, 2766, 60, 2, 30, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[147135, 4341, 185, 4, 28, "Input"],
-Cell[147323, 4347, 75, 0, 28, "Output"]
+Cell[113066, 2773, 24, 0, 80, "Section"],
+Cell[CellGroupData[{
+Cell[113115, 2777, 2888, 77, 80, "Input"],
+Cell[116006, 2856, 63728, 1485, 517, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[179771, 4346, 185, 4, 28, "Input"],
+Cell[179959, 4352, 75, 0, 28, "Output"]
 }, Open  ]]
-}, Closed]]
+}, Open  ]]
 }, Open  ]]
 }
 ]
@@ -4583,4 +4600,4 @@ Cell[147323, 4347, 75, 0, 28, "Output"]
 
 (* End of internal cache information *)
 
-(* NotebookSignature nuDBP2MCsRGMFCg72tNjsvrL *)
+(* NotebookSignature Qv0qTU7OMSP#7AghGEyWtFwr *)
