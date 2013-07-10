@@ -1,4 +1,4 @@
 Parsels::Application.routes.draw do
   resources :shipments
-  root to: 'shipments#new'
+  root to: 'shipments#index'
 end
