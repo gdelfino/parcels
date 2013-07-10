@@ -5,9 +5,10 @@
       %ul
         - @shipment.errors.full_messages.each do |msg|
           %li= msg
-  %ul#aqui
+
   .field
     = f.label 'Please enter shipment weight (kg)'
     = f.number_field :kg, autocomplete: 'off'
+
   .actions
     = f.submit 'Save', class: 'button radius'
