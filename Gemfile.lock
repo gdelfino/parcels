@@ -139,6 +139,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   compass-rails
+  execjs
   factory_girl_rails
   haml-rails
   jquery-rails
