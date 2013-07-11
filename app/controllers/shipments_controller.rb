@@ -1,7 +1,7 @@
 class ShipmentsController < ApplicationController
   def index
     @shipment = Shipment.new
-    @shipments = Shipment.all
+    @shipments = Shipment.order("created_at DESC").all
   end
 
   def create

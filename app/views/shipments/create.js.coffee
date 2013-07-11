@@ -9,7 +9,7 @@ $('#error_explanation').hide().slideDown()
 $('#error_explanation').remove()
 
 $('<%= escape_javascript(render(:partial => @shipment))%>')
-  .appendTo('#shipments')
+  .prependTo('#shipments')
   .hide()
   .fadeIn("slow")
 
